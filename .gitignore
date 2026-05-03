@@ -1,0 +1,36 @@
+# Build direktorijumi
+build/
+*/build/
+*/build-*/
+*/debug/
+*/release/
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+
+# Kompajlirani fajlovi
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Makefile (auto generisan)
+Makefile
+Makefile.Debug
+Makefile.Release
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Log fajlovi
+*.log
