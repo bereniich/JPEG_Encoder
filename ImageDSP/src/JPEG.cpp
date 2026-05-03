@@ -247,7 +247,7 @@ void performJPEGEncoding(uchar Y_buff[], char U_buff[], char V_buff[], int xSize
     // One MCU consists of four 8x8 Y blocks, one 8x8 U block, and one 8x8 V block
     int mcuPerRow = Y.width / 16;
     int mcuPerCol = Y.height / 16;
-    int yBlocksPerRow = Y.width / 8; // Ovo mora biti xSizeExtend / 8
+    int yBlocksPerRow = Y.width / 8; 
 
     for (int my = 0; my < mcuPerCol; my++) {
         for (int mx = 0; mx < mcuPerRow; mx++) {
